@@ -1,0 +1,27 @@
+{
+  "name": "@asefux/secret",
+  "version": "1.0.1",
+  "description": "",
+  "homepage": "https://github.com/asefux/secret#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asefux/secret.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint . --ext .js",
+    "lint:fix": "./node_modules/.bin/eslint . --ext .js --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  },
+  "dependencies": {
+    "@asefux/common": "^1.2.2",
+    "@google-cloud/secret-manager": "^3.0.0"
+  }
+}
